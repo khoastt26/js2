@@ -5,12 +5,18 @@
     alert(c);
    
 }
-tinhtong()*/
+tinhtong()
 function ngaythangnam() {
-    let d = prompt("nhap ngay");
-    let m = prompt("nhap thang");
-    let y = prompt("nhap nam");
-    alert(d + "-" + m +"-"+ y);
+    let day = prompt("nhap ngay");
+    let month = prompt("nhap thang");
+    let year = prompt("nhap nam");
+    alert(day + "-" + month +"-"+ year);
 }
-ngaythangnam();
+ngaythangnam();*/
+function chuvihtr() {
+    let r = +prompt("nhap ban kinh r");
+     c = 2*r*3.14;
+    alert("chu vi hinh tron " + c);
+}
+chuvihtr();
 
